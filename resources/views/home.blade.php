@@ -13,10 +13,10 @@
                 <h1 id="subtitle" class="text-uppercase"> <span id="text-destaque">Nutrindo</span> a vida e o planeta de forma <span id="text-destaque">doce</span>
                 </h1>
                 <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                <!--     <video autoplay loop muted playsinline id="myVideo" class="video-background">
+                    <video autoplay loop muted playsinline id="myVideo" class="video-background">
                         <source src="video/video.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
-                    </video> -->
+                    </video>
                 </div>
             </div>
         </div>
