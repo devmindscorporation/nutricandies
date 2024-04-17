@@ -7,8 +7,6 @@ use App\Http\Controllers\ContatusController;
 use App\Http\Controllers\LanguageController;
 
 
-
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,13 +21,9 @@ use App\Http\Controllers\LanguageController;
 //instutucional
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
-
 Route::get('/sobre', [AboutController::class, 'index']);
-
-
-
+Route::get('/servicos', [AboutController::class, 'index']);
 Route::get('/faleconosco', [ContatusController::class, 'index']);
-
 
 
 //idiomas
@@ -45,7 +39,6 @@ Route::middleware([
     config('jetstream.auth_session'),
     'verified',
 ])->group(function () {
-
 
     Route::middleware(['admin'])->group(function(){
       

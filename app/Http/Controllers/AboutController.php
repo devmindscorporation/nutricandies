@@ -7,12 +7,10 @@ use App\Models\Sobre;
 
 class AboutController extends Controller
 {
-
-
     public function index(){
 
         $sobre = Sobre::find(1);
 
-        return view('about',compact('sobre'));
+        return view('about', compact('sobre'));
     }
 }

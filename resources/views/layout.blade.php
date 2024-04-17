@@ -46,9 +46,13 @@
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto mx-lg-auto py-0">
-                <a href="/" class="nav-item nav-link">Home</a>
-                <a href="/sobre" class="nav-item nav-link">Sobre</a>
-                <a href="/servico" class="nav-item nav-link">Serviços</a>
+                <a href="/" class="nav-item nav-link">IMPACTO</a>
+                <a href="/sobre" class="nav-item nav-link">PRODUTOS</a>
+                <a href="/servicos" class="nav-item nav-link">ONDE TEM?</a>
+                <a href="/servicos" class="nav-item nav-link">TIME</a>
+                <a href="/servicos" class="nav-item nav-link">BLOG</a>
+                <a href="/servicos" class="nav-item nav-link">TIME</a>
+                <a href="/servicos" class="nav-item nav-link">FALE CONOSCO</a>
                 <a href="team.html" class="nav-item nav-link">Master Chefs</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>

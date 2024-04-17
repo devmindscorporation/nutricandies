@@ -14,7 +14,7 @@
                 </h1>
                 <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
                     <video autoplay loop muted playsinline id="myVideo" class="video-background">
-                        <source src="video/video.mp4" type="video/mp4">
+                        <source src="video/video-cacau.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
                 </div>
@@ -80,7 +80,7 @@
                     </div>
                     <div class="ps-4">
                         <h6 class="text-primary text-uppercase">Our Experience</h6>
-                        <h1 class="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
+                        <h1 class="display-5 text-white mb-0" data-toggle="counter-up">99999</h1>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                     </div>
                     <div class="ps-4">
                         <h6 class="text-primary text-uppercase">Cake Specialist</h6>
-                        <h1 class="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
+                        <h1 class="display-5 text-white mb-0" data-toggle="counter-up">99999</h1>
                     </div>
                 </div>
             </div>
@@ -100,9 +100,9 @@
                     <div class="bg-primary border-inner d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                         <i class="fa fa-check text-white"></i>
                     </div>
-                    <div class="ps-4">
+                    <div class="ps-4">  
                         <h6 class="text-primary text-uppercase">Complete Project</h6>
-                        <h1 class="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
+                        <h1 class="display-5 text-white mb-0" data-toggle="counter-up">99999</h1>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                     </div>
                     <div class="ps-4">
                         <h6 class="text-primary text-uppercase">Happy Clients</h6>
-                        <h1 class="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
+                        <h1 class="display-5 text-white mb-0" data-toggle="counter-up">99999</h1>
                     </div>
                 </div>
             </div>
