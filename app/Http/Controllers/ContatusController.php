@@ -12,7 +12,6 @@ class ContatusController extends Controller
 
         $contato = Contato::find(1);
 
-
         return view('contatus',compact('contato'));
     }
 

@@ -8,7 +8,7 @@
     <div class="container-fluid bg-dark bg-img p-5 mb-5">
         <div class="row">
             <div class="col-12 text-center">
-                <h1 class="display-4 text-uppercase text-white">IMPACTO</h1>
+                <h1 class="display-4 text-uppercase text-white">ONDE TEM?</h1>
                 <a href="/">Home</a>
                 <i class="fa fa-angle-right text-primary px-2"></i>
                 <a href="">Sobre</a>

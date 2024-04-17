@@ -5,6 +5,12 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContatusController;
 use App\Http\Controllers\LanguageController;
+/**
+ * 
+ */
+use App\Http\Controllers\ImpactController;
+use App\Http\Controllers\ProdutosController;
+use App\Http\Controllers\OndeTemController;
 
 
 /*
@@ -21,11 +27,19 @@ use App\Http\Controllers\LanguageController;
 //instutucional
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/sobre', [AboutController::class, 'index']);
-Route::get('/servicos', [AboutController::class, 'index']);
+Route::get('/impacto', [ImpactController::class, 'index']);
+Route::get('/produtos', [ProdutosController::class, 'index']);
+Route::get('/onde', [OndeTemController::class, 'index']);
+
+Route::get('/time', [AboutController::class, 'index']);
+Route::get('/blog', [AboutController::class, 'index']);
 Route::get('/faleconosco', [ContatusController::class, 'index']);
+Route::get('/servicos', [AboutController::class, 'index']);
 
-
+/**
+ * 
+ */
+Route::get('/sobre', [AboutController::class, 'index']);
 //idiomas
 
 Route::middleware('web')->group(function () {

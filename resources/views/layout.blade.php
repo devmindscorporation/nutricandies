@@ -46,23 +46,13 @@
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto mx-lg-auto py-0">
-                <a href="/" class="nav-item nav-link">IMPACTO</a>
-                <a href="/sobre" class="nav-item nav-link">PRODUTOS</a>
-                <a href="/servicos" class="nav-item nav-link">ONDE TEM?</a>
-                <a href="/servicos" class="nav-item nav-link">TIME</a>
-                <a href="/servicos" class="nav-item nav-link">BLOG</a>
-                <a href="/servicos" class="nav-item nav-link">TIME</a>
-                <a href="/servicos" class="nav-item nav-link">FALE CONOSCO</a>
-                <a href="team.html" class="nav-item nav-link">Master Chefs</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu m-0">
-
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
-
+                <a href="/" class="nav-item nav-link">HOME</a>
+                <a href="/impacto" class="nav-item nav-link">IMPACTO</a>
+                <a href="/produtos" class="nav-item nav-link">PRODUTOS</a>
+                <a href="/onde" class="nav-item nav-link">ONDE TEM?</a>
+                <a href="/time" class="nav-item nav-link">TIME</a>
+                <a href="/blog" class="nav-item nav-link">BLOG</a>
+                <a href="/faleconosco" class="nav-item nav-link">FALE CONOSCO</a>
                 <div class="vertical-line"></div>
 
             @guest
