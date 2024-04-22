@@ -9,6 +9,7 @@
 #title{
     color: var(--secondary);
     text-shadow: 2px 2px black;
+    text-align: left;
 }
 
 #subtitle{
@@ -126,6 +127,9 @@ h6,
     z-index: 99;
 }
 
+nav .navbar{
+    background-color: #901454;
+}
 .navbar-dark .navbar-nav .nav-link {
     font-family: 'Oswald', sans-serif;
     padding: 30px 15px;

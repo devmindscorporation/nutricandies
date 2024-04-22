@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CakeZone - Cake Shop Website Template</title>
+    <title>Nutricandies</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -34,7 +34,7 @@
 <body>
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-0">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark shadow-sm py-lg-0">
         <a href="/" class="nav-item nav-link active"> <img src="/img/logo.jpg" alt="Nome da Empresa" class="logo"> </a>
         <a href="index.html" class="navbar-brand d-block d-lg-none">
             <h1 class="m-0 text-uppercase text-white">NUTRICANDIES</h1>
@@ -47,6 +47,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto mx-lg-auto py-0">
                 <a href="/" class="nav-item nav-link">HOME</a>
+                <a href="/sobre" class="nav-item nav-link">SOBRE</a>
                 <a href="/impacto" class="nav-item nav-link">IMPACTO</a>
                 <a href="/produtos" class="nav-item nav-link">PRODUTOS</a>
                 <a href="/onde" class="nav-item nav-link">ONDE TEM?</a>
@@ -61,7 +62,6 @@
             @endguest
 
             @auth
-
 
                 <form action="/logout" method="POST">
                     @csrf

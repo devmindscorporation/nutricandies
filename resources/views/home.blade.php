@@ -5,21 +5,18 @@
  <!-- Hero Start -->
 
  <div class="py-5 mb-5 hero-header">
-    <div class="container py-5">
-        <div class="row justify-content-start">
-            <div class="col-lg-8 text-center text-lg-start">
-
-                <h1 id="title" class="display-1 text-uppercase text-white mb-4 ">Nutricandies</h1>
-                <h1 id="subtitle" class="text-uppercase"> <span id="text-destaque">Nutrindo</span> a vida e o planeta de forma <span id="text-destaque">doce</span>
-                </h1>
-                <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                    <video autoplay loop muted playsinline id="myVideo" class="video-background">
-                        <source src="video/video-cacau.mp4" type="video/mp4">
-                        Your browser does not support HTML5 video.
-                    </video>
-                </div>
-            </div>
+    <div class="container py-5 border">
+        <h1 id="title" class="display-1 text-uppercase text-white mb-4">Nutricandies</h1>
+        <h1 id="subtitle" class="text-uppercase"> <span id="text-destaque">Nutrindo</span> a vida e o planeta de forma <span id="text-destaque">doce</span>
+        </h1>
+        
+        <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+            <video autoplay loop muted playsinline id="myVideo" class="video-background">
+                <source src="video/video-cacau.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
         </div>
+        
     </div>
 </div>
 
@@ -33,10 +30,6 @@
 <!-- About Start -->
 <div class="container-fluid pt-5">
     <div class="container">
-        <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px;">
-            <h2 class="text-primary font-secondary">About Us</h2>
-            <h1 class="display-4 text-uppercase">Welcome To CakeZone</h1>
-        </div>
         <div class="row gx-5">
             <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 400px;">
                 <div class="position-relative h-100">
@@ -44,8 +37,8 @@
                 </div>
             </div>
             <div class="col-lg-6 pb-5">
-                <h4 class="mb-4">Tempor erat elitr rebum clita. Diam dolor diam ipsum erat lorem sed stet labore lorem sit clita duo</h4>
-                <p class="mb-5">Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum et tempor sit. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet magna</p>
+                <h4 class="mb-4">Aqui entra um subtitulo para a descrição do site</h4>
+                <p class="mb-5">Aqui entra um resumo sobre do que se trata o site</p>
                 <div class="row g-5">
                     <div class="col-sm-6">
                         <div class="d-flex align-items-center justify-content-center bg-primary border-inner mb-4" style="width: 90px; height: 90px;">
@@ -80,7 +73,7 @@
                     </div>
                     <div class="ps-4">
                         <h6 class="text-primary text-uppercase">Our Experience</h6>
-                        <h1 class="display-5 text-white mb-0" data-toggle="counter-up">99999</h1>
+                        <h1 class="display-5 text-white mb-0" data-toggle="counter-up">999</h1>
                     </div>
                 </div>
             </div>
@@ -91,7 +84,7 @@
                     </div>
                     <div class="ps-4">
                         <h6 class="text-primary text-uppercase">Cake Specialist</h6>
-                        <h1 class="display-5 text-white mb-0" data-toggle="counter-up">99999</h1>
+                        <h1 class="display-5 text-white mb-0" data-toggle="counter-up">999</h1>
                     </div>
                 </div>
             </div>
@@ -102,7 +95,7 @@
                     </div>
                     <div class="ps-4">  
                         <h6 class="text-primary text-uppercase">Complete Project</h6>
-                        <h1 class="display-5 text-white mb-0" data-toggle="counter-up">99999</h1>
+                        <h1 class="display-5 text-white mb-0" data-toggle="counter-up">999</h1>
                     </div>
                 </div>
             </div>
@@ -113,7 +106,7 @@
                     </div>
                     <div class="ps-4">
                         <h6 class="text-primary text-uppercase">Happy Clients</h6>
-                        <h1 class="display-5 text-white mb-0" data-toggle="counter-up">99999</h1>
+                        <h1 class="display-5 text-white mb-0" data-toggle="counter-up">999</h1>
                     </div>
                 </div>
             </div>
