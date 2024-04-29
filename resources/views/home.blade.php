@@ -5,7 +5,7 @@
  <!-- Hero Start -->
 
  <div class="py-5 mb-5 hero-header">
-    <div class="container py-5 border">
+    <div class="container py-5">
         <h1 id="title" class="display-1 text-uppercase text-white mb-4">Nutricandies</h1>
         <h1 id="subtitle" class="text-uppercase"> <span id="text-destaque">Nutrindo</span> a vida e o planeta de forma <span id="text-destaque">doce</span>
         </h1>
