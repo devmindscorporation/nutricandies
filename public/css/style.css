@@ -91,7 +91,7 @@ h6,
     bottom: 10px;
     left: 10px;
     background: none;
-    border: 1px solid var(--light);
+    border: 1px solid #fff;
     z-index: 0;
 }
 
@@ -132,17 +132,17 @@ nav .navbar{
 }
 .navbar-dark .navbar-nav .nav-link {
     font-family: 'Oswald', sans-serif;
-    padding: 30px 15px;
-    font-size: 18px;
-    font-weight: 500;
+    padding: 30px 5px;
+    font-size: 21px;
+    font-weight: bold;
     text-transform: uppercase;
-    color: var(--light);
+    color: #333;
     outline: none;
     transition: .5s;
 }
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
-    padding: 20px 15px;
+    padding: 15px 10px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -157,7 +157,7 @@ nav .navbar{
 }
 
 .hero-header {
-    position: relative;
+
     overflow: hidden; /* Para esconder partes do vídeo que ultrapassam o elemento */
     padding: 27%;
 }
@@ -165,11 +165,8 @@ nav .navbar{
 .video-background {
     position: absolute;
     right: 0;
-    bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
     z-index: -1; /* Para colocar o vídeo atrás do conteúdo */
 }
 

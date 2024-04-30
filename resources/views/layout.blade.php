@@ -34,7 +34,7 @@
 <body>
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-md bg-transparent navbar-dark shadow-sm py-lg-0">
+    <nav class="navbar navbar-expand-md bg-transparent navbar-dark bg-white">
         <a href="/" class="nav-item nav-link active"> <img src="/img/logo.jpg" alt="Nome da Empresa" class="logo"> </a>
         <a href="index.html" class="navbar-brand d-block d-lg-none">
             <h1 class="m-0 text-uppercase text-white">NUTRICANDIES</h1>
@@ -44,8 +44,8 @@
         </button>
 
 
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto mx-lg-auto py-0">
+
+            <div class="navbar-nav ">
                 <a href="/" class="nav-item nav-link">HOME</a>
                 <a href="/sobre" class="nav-item nav-link">SOBRE</a>
                 <a href="/impacto" class="nav-item nav-link">IMPACTO</a>
@@ -73,7 +73,7 @@
 
             @endauth
             </div>
-        </div>
+
     </nav>
     <!-- Navbar End -->
 
@@ -85,14 +85,7 @@
     <div class="container-fluid bg-img text-secondary" style="margin-top: 90px">
         <div class="container">
             <div class="row gx-5">
-                <div class="col-lg-4 col-md-6 mb-lg-n5">
-                    <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary border-inner p-4">
-                        <a href="index.html" class="navbar-brand">
-                            <h1 class="m-0 text-uppercase text-white">CakeZone</h1>
-                        </a>
-                        <p class="mt-3">Lorem diam sit erat dolor elitr et, diam lorem justo labore amet clita labore stet eos magna sit. Elitr dolor eirmod duo tempor lorem, elitr clita ipsum sea. Nonumy rebum et takimata ea takimata amet gubergren, erat rebum magna lorem stet eos. Diam amet et kasd eos duo dolore no.</p>
-                    </div>
-                </div>
+                
                 <div class="col-lg-8 col-md-6">
                     <div class="row gx-5">
                         <div class="col-lg-4 col-md-12 pt-5 mb-5">
