@@ -34,7 +34,7 @@
 <body>
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-md bg-transparent navbar-dark shadow-sm py-lg-0 position-absolute position-fixed">
+    <nav class="navbar navbar-expand-md bg-transparent navbar-dark shadow-sm py-lg-0">
         <a href="/" class="nav-item nav-link active"> <img src="/img/logo.jpg" alt="Nome da Empresa" class="logo"> </a>
         <a href="index.html" class="navbar-brand d-block d-lg-none">
             <h1 class="m-0 text-uppercase text-white">NUTRICANDIES</h1>
@@ -59,6 +59,7 @@
             @guest
                 <a href="/login" class="nav-item nav-link">Entrar</a>
                 <a href="/register" class="nav-item nav-link">Registrar</a>
+                <a href="/admin" class="nav-item nav-link">ADMIN</a>
             @endguest
 
             @auth
